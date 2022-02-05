@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/ftpopup"
+    android:background="@color/lightgreen"
+    android:layout_gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/GrowArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Growing Area"
+        android:textSize="20dp"
+        android:textColor="@color/titleText"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/titletext"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/GrowAreaTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="grow area"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/titleGreen"
+        android:background="@drawable/answertext"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/LastSpringFrostlbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Spring Frost"
+        android:textSize="20dp"
+        android:textColor="@color/titleText"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/titletext"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:id="@+id/LastSpringFrosttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="last spring frost"
+        android:textStyle="bold"
+        android:textColor="@color/titleGreen"
+        android:background="@drawable/answertext"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/FirstFallFrostlbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Fall Frost"
+        android:textSize="20dp"
+        android:textColor="@color/titleText"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/titletext"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="135dp"
+        />
+
+
+    <TextView
+        android:id="@+id/FirstFallFrosttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first fall frost"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/titleGreen"
+        android:background="@drawable/answertext"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/closeDiag"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="CLOSE"
+        android:background="@drawable/titletext"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/frost"
+        android:layout_marginLeft="220dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+</RelativeLayout>

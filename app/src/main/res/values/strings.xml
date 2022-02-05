@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Garden Catalog</string>
+
+    <string-array name="seed_names">
+        <item>Tomato</item>
+        <item>Herb</item>
+        <item>Radish</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Yellow Pear</item>
+        <item>Genovese</item>
+        <item>Watermelon</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
